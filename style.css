@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #000000, #1c1c1c, #6a0dad, #1e90ff, #ffffff);
+    background-size: 300% 300%;
+    animation: Gradient 15s ease infinite;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  @keyframes Gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  .container-relogio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .relogio {
+    font-size: 5rem;
+    color: white;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .select-cidade {
+    margin-top: 20px;
+  }
+  
+  label {
+    font-size: 1.2rem;
+    color: white;
+  }
+  
+  select {
+    font-size: 1rem;
+    padding: 5px;
+    margin-left: 10px;
+  }
+  
+  footer {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: white;
+  }
+  
