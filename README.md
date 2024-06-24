@@ -20,3 +20,7 @@ Estrutura do Projeto
 index.html: Estrutura básica do relógio.
 style.css: Estilos e animações para a página.
 script.js: Lógica de atualização do relógio.
+
+Link do projeto: https://relogio-digital-global.vercel.app/
+
+Desenvolvido por Nathália Carvalho. 
